@@ -176,6 +176,16 @@
           }
         },
         {
+          "id": "yalter.mousetweaks:mousetweaks:2.26@jar",
+          "name": "Mouse Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77943,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/MouseTweaks-fabric-mc1.20-2.26.jar",
+            "MD5": "3138c776d370c90603938eb54d17469a"
+          }
+        },
+        {
           "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
           "name": "Sodium",
           "type": "FabricMod",
@@ -223,6 +233,17 @@
             "size": 807874,
             "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/Zoomify-2.14.2+1.20.4.jar",
             "MD5": "cf99ab393d527fda2e146206ac447a5d"
+          }
+        },
+        {
+          "id": "MouseTweaks.cfg",
+          "name": "MouseTweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 135,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/MouseTweaks.cfg",
+            "MD5": "06f3a55c443a4a4389f72839e7f457a0",
+            "path": "config/MouseTweaks.cfg"
           }
         },
         {
