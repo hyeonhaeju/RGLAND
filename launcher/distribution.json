@@ -290,6 +290,17 @@
             "MD5": "b2a5547771bfc7caf1a40abebea69a24",
             "path": "resourcepacks/유리합치기 리팩.zip"
           }
+        },
+        {
+          "id": "photon_v1.1.zip",
+          "name": "photon_v1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3563885,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/shaderpacks/photon_v1.1.zip",
+            "MD5": "e4f15b886ee2ed7349ca264bcfcc1147",
+            "path": "shaderpacks/photon_v1.1.zip"
+          }
         }
       ]
     }
