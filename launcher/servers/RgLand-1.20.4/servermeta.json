@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Workspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "RGLand",
+    "description": "마인크래프트 RG랜드 스트리머 전용 서버",
+    "icon": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/RG_land_logo.png",
+    "address": "rgland0606.alcl.kr",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.16.14"
+  },
+  "untrackedFiles": []
+}
