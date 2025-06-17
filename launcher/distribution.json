@@ -116,26 +116,6 @@
           ]
         },
         {
-          "id": "net.blay09.mods.balm:balm-fabric:9.0.9@jar",
-          "name": "Balm",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 397505,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/balm-fabric-1.20.4-9.0.9.jar",
-            "MD5": "eda779e60450da1a6b42dcaef18c94eb"
-          }
-        },
-        {
-          "id": "net.blay09.mods:defaultoptions:20.0.2@jar",
-          "name": "Default Options",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 87343,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/defaultoptions-fabric-1.20.4-20.0.2.jar",
-            "MD5": "8a646165dfef1aaaaff41df4e486f8e6"
-          }
-        },
-        {
           "id": "generated.fabricmod:fabric-api:0.97.2+1.20.4@jar",
           "name": "Fabric API",
           "type": "FabricMod",
@@ -251,9 +231,9 @@
           "type": "File",
           "artifact": {
             "size": 2368,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/defaultoptions/options.txt",
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/options.txt",
             "MD5": "be581cb3868a3c4eccedc34e945891fc",
-            "path": "config/defaultoptions/options.txt"
+            "path": "options.txt"
           }
         },
         {
@@ -262,9 +242,9 @@
           "type": "File",
           "artifact": {
             "size": 90,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/defaultoptions/servers.dat",
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/servers.dat",
             "MD5": "3dea582e92381ed8ac32d85158a9d22b",
-            "path": "config/defaultoptions/servers.dat"
+            "path": "servers.dat"
           }
         }
       ]
