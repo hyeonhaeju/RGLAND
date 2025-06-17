@@ -237,6 +237,17 @@
           }
         },
         {
+          "id": "유리합치기 리팩.zip",
+          "name": "유리합치기 리팩.zip",
+          "type": "File",
+          "artifact": {
+            "size": 271822,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/resourcepacks/%EC%9C%A0%EB%A6%AC%ED%95%A9%EC%B9%98%EA%B8%B0%20%EB%A6%AC%ED%8C%A9.zip",
+            "MD5": "b2a5547771bfc7caf1a40abebea69a24",
+            "path": "resourcepacks/유리합치기 리팩.zip"
+          }
+        },
+        {
           "id": "servers.dat",
           "name": "servers.dat",
           "type": "File",
