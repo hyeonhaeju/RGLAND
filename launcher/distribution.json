@@ -226,14 +226,58 @@
           }
         },
         {
+          "id": "keybindings.txt",
+          "name": "keybindings.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2296,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/defaultoptions/keybindings.txt",
+            "MD5": "39fab2d8d8b2403a58a4471f109b3321",
+            "path": "config/defaultoptions/keybindings.txt"
+          }
+        },
+        {
           "id": "options.txt",
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 2368,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/options.txt",
-            "MD5": "be581cb3868a3c4eccedc34e945891fc",
-            "path": "options.txt"
+            "size": 2399,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/defaultoptions/options.txt",
+            "MD5": "9d86a91b9c1c5ab7fd26b996c94d505d",
+            "path": "config/defaultoptions/options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 90,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/defaultoptions/servers.dat",
+            "MD5": "3dea582e92381ed8ac32d85158a9d22b",
+            "path": "config/defaultoptions/servers.dat"
+          }
+        },
+        {
+          "id": "defaultoptions-common.toml",
+          "name": "defaultoptions-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 333,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/defaultoptions-common.toml",
+            "MD5": "3dd3397e976f9184eb32abde533cf247",
+            "path": "config/defaultoptions-common.toml"
+          }
+        },
+        {
+          "id": "zoomify.json",
+          "name": "zoomify.json",
+          "type": "File",
+          "artifact": {
+            "size": 713,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/zoomify.json",
+            "MD5": "d9f3478ab4b72ca4d72e34de10c410d4",
+            "path": "config/zoomify.json"
           }
         },
         {
@@ -245,17 +289,6 @@
             "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/resourcepacks/%EC%9C%A0%EB%A6%AC%ED%95%A9%EC%B9%98%EA%B8%B0%20%EB%A6%AC%ED%8C%A9.zip",
             "MD5": "b2a5547771bfc7caf1a40abebea69a24",
             "path": "resourcepacks/유리합치기 리팩.zip"
-          }
-        },
-        {
-          "id": "servers.dat",
-          "name": "servers.dat",
-          "type": "File",
-          "artifact": {
-            "size": 90,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/servers.dat",
-            "MD5": "3dea582e92381ed8ac32d85158a9d22b",
-            "path": "servers.dat"
           }
         }
       ]

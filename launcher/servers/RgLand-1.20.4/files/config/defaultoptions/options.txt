@@ -45,7 +45,7 @@ prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
 resourcePacks:["vanilla","fabric"]
-incompatibleResourcePacks:["koreanpatch","yet_another_config_lib_v3"]
+incompatibleResourcePacks:["balm-fabric","defaultoptions","koreanpatch","yet_another_config_lib_v3"]
 lastServer:
 lang:ko_kr
 soundDevice:""
