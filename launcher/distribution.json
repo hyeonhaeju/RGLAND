@@ -280,14 +280,14 @@
           }
         },
         {
-          "id": "photon_v1.1.zip",
-          "name": "photon_v1.1.zip",
+          "id": "ComplementaryUnbound_r5.5.1.zip",
+          "name": "ComplementaryUnbound_r5.5.1.zip",
           "type": "File",
           "artifact": {
-            "size": 3563885,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/shaderpacks/photon_v1.1.zip",
-            "MD5": "e4f15b886ee2ed7349ca264bcfcc1147",
-            "path": "shaderpacks/photon_v1.1.zip"
+            "size": 456332,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip",
+            "MD5": "576ef06da170458879f3a03e685d487a",
+            "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip"
           }
         }
       ]
