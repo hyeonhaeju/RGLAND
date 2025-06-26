@@ -9,10 +9,10 @@
   "servers": [
     {
       "id": "RgLand-1.20.4",
-      "name": "RGLand",
-      "description": "마인크래프트 RG랜드 스트리머 전용 서버",
+      "name": "Rg랜드 (스트리머 서버)",
+      "description": "스트리머와 함께하는 모험!",
       "icon": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/RG_land_logo.png",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "address": "rgland0606.alcl.kr",
       "minecraftVersion": "1.20.4",
       "discord": {
@@ -39,7 +39,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 2849,
-                "MD5": "1f3f06c8a0925d85deae84460a4edf12",
+                "MD5": "78b0cb5f1b755a93387b7328690e9241",
                 "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/repo/versions/1.20.4-fabric-0.16.14/1.20.4-fabric-0.16.14.json"
               }
             },
@@ -116,33 +116,103 @@
           ]
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.97.2+1.20.4@jar",
+          "id": "net.blay09.mods.balm:balm-fabric:9.0.9@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 397505,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/balm-fabric-1.20.4-9.0.9.jar",
+            "MD5": "413020c9b04ff02b0c9795d9529bfb97"
+          }
+        },
+        {
+          "id": "shcm.shsupercm:citresewn:1.1.4+1.20.4@jar",
+          "name": "CIT Resewn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 391814,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/citresewn-1.1.5+1.20.4.jar",
+            "MD5": "9707faa02b3d8e0d2c14b5c409dae4f7"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0+1.20.2@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1016209,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/continuity-3.0.0+1.20.2.jar",
+            "MD5": "66c63db86b7fbc4fbb5a3816c124b03b"
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:20.0.2@jar",
+          "name": "Default Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 87343,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/defaultoptions-fabric-1.20.4-20.0.2.jar",
+            "MD5": "8a646165dfef1aaaaff41df4e486f8e6"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.4.1@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 443556,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/entity_model_features_fabric_1.20.4-2.4.1.jar",
+            "MD5": "0869e170ef5ae4f0784620484b717115"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.9@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 651986,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/entity_texture_features_fabric_1.20.4-6.2.9.jar",
+            "MD5": "e3ee94839f9c271ed7b80d42b8a04ff0"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.8.0@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 464805,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/entityculling-fabric-1.8.0-mc1.20.4.jar",
+            "MD5": "3dea4ff12ff3caf090759351423007d9"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.97.3+1.20.4@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 2187410,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/fabric-api-0.97.2+1.20.4.jar",
-            "MD5": "2733c159c2f7628983a96b442ca3f823"
+            "size": 2187523,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/fabric-api-0.97.3+1.20.4.jar",
+            "MD5": "03ed4ae378e68f42ccf05dbe97007793"
           }
         },
         {
-          "id": "generated.fabricmod:fabric-language-kotlin:1.13.3+kotlin.2.1.21@jar",
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.4+kotlin.2.2.0@jar",
           "name": "Fabric Language Kotlin",
           "type": "FabricMod",
           "artifact": {
-            "size": 7163558,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/fabric-language-kotlin-1.13.3+kotlin.2.1.21.jar",
-            "MD5": "3c186cee540e7f21d8327bed71dd9d6b"
+            "size": 7387359,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/fabric-language-kotlin-1.13.4+kotlin.2.2.0.jar",
+            "MD5": "5edf1cfa6574e3e1e38c2e4f1b5a557e"
           }
         },
         {
-          "id": "com.supermartijn642:fusion:1.2.7@jar",
-          "name": "Fusion",
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:20.4.3@jar",
+          "name": "Forge Config API Port",
           "type": "FabricMod",
           "artifact": {
-            "size": 514197,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/fusion-1.2.7-fabric-mc1.20.4.jar",
-            "MD5": "992ba5a4ec65c92d12ef531011d02c8b"
+            "size": 444627,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/ForgeConfigAPIPort-v20.4.3-1.20.4-Fabric.jar",
+            "MD5": "61c622d98e5938c377a45ad513b6de13"
           }
         },
         {
@@ -166,6 +236,16 @@
           }
         },
         {
+          "id": "journeymap:journeymap:5.10.0@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7209750,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/journeymap-1.20.4-5.10.0-fabric.jar",
+            "MD5": "51fd7c0a120638305365e6431bcbf602"
+          }
+        },
+        {
           "id": "com.hyfata.najoan:koreanpatch:1.8.3+mc1.20.4@jar",
           "name": "Korean Patch",
           "type": "FabricMod",
@@ -176,13 +256,73 @@
           }
         },
         {
-          "id": "yalter.mousetweaks:mousetweaks:2.26@jar",
-          "name": "Mouse Tweaks",
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
           "type": "FabricMod",
           "artifact": {
-            "size": 77943,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/MouseTweaks-fabric-mc1.20-2.26.jar",
-            "MD5": "3138c776d370c90603938eb54d17469a"
+            "size": 49334,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          }
+        },
+        {
+          "id": "icyllis.modernui.mc:modernui:3.11.1.7@jar",
+          "name": "Modern UI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25591548,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/ModernUI-Fabric-1.20.4-3.11.1.7-universal.jar",
+            "MD5": "f6bf18f1cc9d50d9f5b439a35b8942ee"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:9.2.0@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 963019,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/modmenu-9.2.0.jar",
+            "MD5": "f8008ee81dd401a441bd20f41e43fca2"
+          }
+        },
+        {
+          "id": "generated.fabricmod:packetfixer:3.1.0@jar",
+          "name": "Packet Fixer",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 154820,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/packetfixer-3.1.0-1.18-1.20.4-merged.jar",
+            "MD5": "359b1cf5f75b0076c1a37c2257a3eea8"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.4@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12168639,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/plasmovoice-fabric-1.20.4-2.1.4.jar",
+            "MD5": "b330a241040df5c215e61de8a69220ef"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.4-build.102@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77393,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/reeses_sodium_options-1.7.2+mc1.20.4-build.102.jar",
+            "MD5": "3353347619cc18acb9b6ef811ac6a310"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.4-build.116@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 385665,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/sodium-extra-0.5.4+mc1.20.4-build.116.jar",
+            "MD5": "a414a1b266c8e6bd22b37c72413000ff"
           }
         },
         {
@@ -190,29 +330,29 @@
           "name": "Sodium",
           "type": "FabricMod",
           "artifact": {
-            "size": 949085,
+            "size": 940913,
             "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
-            "MD5": "d7753a50ca37f50abb10465a9a425dac"
+            "MD5": "bcf6c369869fcf27392a7c0179c3db55"
           }
         },
         {
-          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.18+a@jar",
-          "name": "SuperMartijn642's Core Lib",
+          "id": "generated.fabricmod:starlight:1.1.3+fabric.f5dcd1a@jar",
+          "name": "Starlight",
           "type": "FabricMod",
           "artifact": {
-            "size": 565017,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/supermartijn642corelib-1.1.18a-fabric-mc1.20.4.jar",
-            "MD5": "7713c261197865b9835da0ffa0c195be"
+            "size": 126410,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/starlight-1.1.3+fabric.f5dcd1a.jar",
+            "MD5": "e4b2c577ba4501b8cc29c7217eeaf108"
           }
         },
         {
-          "id": "de.maxhenkel:voicechat:1.20.4-2.5.22@jar",
-          "name": "Simple Voice Chat",
+          "id": "generated.fabricmod:xxlpackets:1.0.4-1.20.x-1.20.1@jar",
+          "name": "XXLPackets",
           "type": "FabricMod",
           "artifact": {
-            "size": 8147474,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/voicechat-fabric-1.20.4-2.5.22.jar",
-            "MD5": "5217d3b088200ebac7fbb7f3e41087ef"
+            "size": 10386,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/fabricmods/required/xlpackets-1.0.4-1.20.x.jar",
+            "MD5": "783fd42e06b44e0ae45708152c7bc4d6"
           }
         },
         {
@@ -236,14 +376,586 @@
           }
         },
         {
-          "id": "MouseTweaks.cfg",
-          "name": "MouseTweaks.cfg",
+          "id": "keybindings.txt",
+          "name": "keybindings.txt",
           "type": "File",
           "artifact": {
-            "size": 135,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/MouseTweaks.cfg",
-            "MD5": "06f3a55c443a4a4389f72839e7f457a0",
-            "path": "config/MouseTweaks.cfg"
+            "size": 3080,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/defaultoptions/keybindings.txt",
+            "MD5": "0882332dbb828693a5ae1afdff523d2c",
+            "path": "config/defaultoptions/keybindings.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 112,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/defaultoptions/servers.dat",
+            "MD5": "533fc25748278c50bb8d7268ba7ee7ed",
+            "path": "config/defaultoptions/servers.dat"
+          }
+        },
+        {
+          "id": "journeymap-server.json",
+          "name": "journeymap-server.json",
+          "type": "File",
+          "artifact": {
+            "size": 67,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/journeymap-server.json",
+            "MD5": "1de3b1bd220fc2e0696e0946001baa66",
+            "path": "config/journeymap-server.json"
+          }
+        },
+        {
+          "id": "bootstrap.properties",
+          "name": "bootstrap.properties",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/ModernUI/bootstrap.properties",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/ModernUI/bootstrap.properties"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 7869,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/ModernUI/client.toml",
+            "MD5": "c6ecc66689ca9f1d21cf42d98361e6b8",
+            "path": "config/ModernUI/client.toml"
+          }
+        },
+        {
+          "id": "common.toml",
+          "name": "common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 147,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/ModernUI/common.toml",
+            "MD5": "75afa50169c3ede1983e15279231ea6b",
+            "path": "config/ModernUI/common.toml"
+          }
+        },
+        {
+          "id": "text.toml",
+          "name": "text.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5810,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/ModernUI/text.toml",
+            "MD5": "a5e1d18509284b45e261002d02499678",
+            "path": "config/ModernUI/text.toml"
+          }
+        },
+        {
+          "id": "de_de.json",
+          "name": "de_de.json",
+          "type": "File",
+          "artifact": {
+            "size": 8510,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/.crowdin/de_de.json",
+            "MD5": "cb8838ceada0cc1ac72d33c3359eb883",
+            "path": "config/plasmovoice/.crowdin/de_de.json"
+          }
+        },
+        {
+          "id": "es_es.json",
+          "name": "es_es.json",
+          "type": "File",
+          "artifact": {
+            "size": 9115,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/.crowdin/es_es.json",
+            "MD5": "ebe33e9b2d8f8f2d4519edb2e4394e40",
+            "path": "config/plasmovoice/.crowdin/es_es.json"
+          }
+        },
+        {
+          "id": "fr_fr.json",
+          "name": "fr_fr.json",
+          "type": "File",
+          "artifact": {
+            "size": 9154,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/.crowdin/fr_fr.json",
+            "MD5": "f3a517b45d6920f327020408fd9751fd",
+            "path": "config/plasmovoice/.crowdin/fr_fr.json"
+          }
+        },
+        {
+          "id": "he_il.json",
+          "name": "he_il.json",
+          "type": "File",
+          "artifact": {
+            "size": 9290,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/.crowdin/he_il.json",
+            "MD5": "2f2e21189a6f11d39a33b7b66a111b5c",
+            "path": "config/plasmovoice/.crowdin/he_il.json"
+          }
+        },
+        {
+          "id": "ja_jp.json",
+          "name": "ja_jp.json",
+          "type": "File",
+          "artifact": {
+            "size": 8648,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/.crowdin/ja_jp.json",
+            "MD5": "25e83944ec8bd9c10ce415cb413b0dec",
+            "path": "config/plasmovoice/.crowdin/ja_jp.json"
+          }
+        },
+        {
+          "id": "ko_kr.json",
+          "name": "ko_kr.json",
+          "type": "File",
+          "artifact": {
+            "size": 9208,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/.crowdin/ko_kr.json",
+            "MD5": "ab87eb710206cd3eef9e1ba03f88bd57",
+            "path": "config/plasmovoice/.crowdin/ko_kr.json"
+          }
+        },
+        {
+          "id": "pl_pl.json",
+          "name": "pl_pl.json",
+          "type": "File",
+          "artifact": {
+            "size": 8362,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/.crowdin/pl_pl.json",
+            "MD5": "665aa07fd87a6c6579be9bb88cab9ed0",
+            "path": "config/plasmovoice/.crowdin/pl_pl.json"
+          }
+        },
+        {
+          "id": "pt_br.json",
+          "name": "pt_br.json",
+          "type": "File",
+          "artifact": {
+            "size": 9046,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/.crowdin/pt_br.json",
+            "MD5": "97bd0d3f6c281f960cf448c4346563fc",
+            "path": "config/plasmovoice/.crowdin/pt_br.json"
+          }
+        },
+        {
+          "id": "ru_ru.json",
+          "name": "ru_ru.json",
+          "type": "File",
+          "artifact": {
+            "size": 11446,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/.crowdin/ru_ru.json",
+            "MD5": "9c3a8c7dc0eb3a6640847988b139fb00",
+            "path": "config/plasmovoice/.crowdin/ru_ru.json"
+          }
+        },
+        {
+          "id": "timestamp",
+          "name": "timestamp",
+          "type": "File",
+          "artifact": {
+            "size": 13,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/.crowdin/timestamp",
+            "MD5": "c6a86a850d384efeba7d2a2ac3c06408",
+            "path": "config/plasmovoice/.crowdin/timestamp"
+          }
+        },
+        {
+          "id": "tt_ru.json",
+          "name": "tt_ru.json",
+          "type": "File",
+          "artifact": {
+            "size": 11312,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/.crowdin/tt_ru.json",
+            "MD5": "6f8f48b6ce5ec3b6f8ea9cf34a3d5dc4",
+            "path": "config/plasmovoice/.crowdin/tt_ru.json"
+          }
+        },
+        {
+          "id": "uk_ua.json",
+          "name": "uk_ua.json",
+          "type": "File",
+          "artifact": {
+            "size": 10828,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/.crowdin/uk_ua.json",
+            "MD5": "a68060377351fcfdbf5c0af87330e6c7",
+            "path": "config/plasmovoice/.crowdin/uk_ua.json"
+          }
+        },
+        {
+          "id": "zh_cn.json",
+          "name": "zh_cn.json",
+          "type": "File",
+          "artifact": {
+            "size": 8123,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/.crowdin/zh_cn.json",
+            "MD5": "6a385d12b888457adee2b62acc8e9aa6",
+            "path": "config/plasmovoice/.crowdin/zh_cn.json"
+          }
+        },
+        {
+          "id": "zh_tw.json",
+          "name": "zh_tw.json",
+          "type": "File",
+          "artifact": {
+            "size": 7637,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/.crowdin/zh_tw.json",
+            "MD5": "2d6f70c853f3707a19472a8b1a6422c0",
+            "path": "config/plasmovoice/.crowdin/zh_tw.json"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2620,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/client.toml",
+            "MD5": "1fcc5bf43197942d2554701a401e4556",
+            "path": "config/plasmovoice/client.toml"
+          }
+        },
+        {
+          "id": "meta_cache.json",
+          "name": "meta_cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 655,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/meta_cache.json",
+            "MD5": "db9b2f1c2426a0179a8cd4e081aefaf3",
+            "path": "config/plasmovoice/meta_cache.json"
+          }
+        },
+        {
+          "id": "config.toml",
+          "name": "config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1099,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/config.toml",
+            "MD5": "09a1ff5c4c3b628b3cbd46099b8130e5",
+            "path": "config/plasmovoice/server/config.toml"
+          }
+        },
+        {
+          "id": "de_de.toml",
+          "name": "de_de.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2187,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/.crowdin/de_de.toml",
+            "MD5": "2089abe483e394b6bca56e9d5e678356",
+            "path": "config/plasmovoice/server/languages/.crowdin/de_de.toml"
+          }
+        },
+        {
+          "id": "es_es.toml",
+          "name": "es_es.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2123,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/.crowdin/es_es.toml",
+            "MD5": "a460aa40e6caf8f608d5d9eef37a352d",
+            "path": "config/plasmovoice/server/languages/.crowdin/es_es.toml"
+          }
+        },
+        {
+          "id": "fr_fr.toml",
+          "name": "fr_fr.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2099,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/.crowdin/fr_fr.toml",
+            "MD5": "740fdb640a023b211ed687635401a9d1",
+            "path": "config/plasmovoice/server/languages/.crowdin/fr_fr.toml"
+          }
+        },
+        {
+          "id": "he_il.toml",
+          "name": "he_il.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2228,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/.crowdin/he_il.toml",
+            "MD5": "f9dea392bcf8b6e753a27df4f992423b",
+            "path": "config/plasmovoice/server/languages/.crowdin/he_il.toml"
+          }
+        },
+        {
+          "id": "ko_kr.toml",
+          "name": "ko_kr.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2356,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/.crowdin/ko_kr.toml",
+            "MD5": "0ebaa356e476ef191aea62286e6f6201",
+            "path": "config/plasmovoice/server/languages/.crowdin/ko_kr.toml"
+          }
+        },
+        {
+          "id": "pl_pl.toml",
+          "name": "pl_pl.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2040,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/.crowdin/pl_pl.toml",
+            "MD5": "878c8082d74bf35b7a90e09bdeb2e77c",
+            "path": "config/plasmovoice/server/languages/.crowdin/pl_pl.toml"
+          }
+        },
+        {
+          "id": "pt_br.toml",
+          "name": "pt_br.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2035,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/.crowdin/pt_br.toml",
+            "MD5": "5bce271883e6122226e028673426ef48",
+            "path": "config/plasmovoice/server/languages/.crowdin/pt_br.toml"
+          }
+        },
+        {
+          "id": "ru_ru.toml",
+          "name": "ru_ru.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2531,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/.crowdin/ru_ru.toml",
+            "MD5": "c7f9382eefb0b7eaa0019e53ca59a1d8",
+            "path": "config/plasmovoice/server/languages/.crowdin/ru_ru.toml"
+          }
+        },
+        {
+          "id": "timestamp",
+          "name": "timestamp",
+          "type": "File",
+          "artifact": {
+            "size": 13,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/.crowdin/timestamp",
+            "MD5": "a7cd0ed80076a222aacccfc9fa4b7f4f",
+            "path": "config/plasmovoice/server/languages/.crowdin/timestamp"
+          }
+        },
+        {
+          "id": "tr_tr.toml",
+          "name": "tr_tr.toml",
+          "type": "File",
+          "artifact": {
+            "size": 825,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/.crowdin/tr_tr.toml",
+            "MD5": "973828fe670930a51d9594913a270cb4",
+            "path": "config/plasmovoice/server/languages/.crowdin/tr_tr.toml"
+          }
+        },
+        {
+          "id": "tt_ru.toml",
+          "name": "tt_ru.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2913,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/.crowdin/tt_ru.toml",
+            "MD5": "f5d14860658cf0751277709266047a8c",
+            "path": "config/plasmovoice/server/languages/.crowdin/tt_ru.toml"
+          }
+        },
+        {
+          "id": "uk_ua.toml",
+          "name": "uk_ua.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2730,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/.crowdin/uk_ua.toml",
+            "MD5": "679c42fb12563dead83f7a0111ba6eb4",
+            "path": "config/plasmovoice/server/languages/.crowdin/uk_ua.toml"
+          }
+        },
+        {
+          "id": "zh_cn.toml",
+          "name": "zh_cn.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1882,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/.crowdin/zh_cn.toml",
+            "MD5": "74b40c78208fe6f358a346dd2adb76e8",
+            "path": "config/plasmovoice/server/languages/.crowdin/zh_cn.toml"
+          }
+        },
+        {
+          "id": "zh_tw.toml",
+          "name": "zh_tw.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1879,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/.crowdin/zh_tw.toml",
+            "MD5": "6c4a2685db02eb56892a8440c075ce40",
+            "path": "config/plasmovoice/server/languages/.crowdin/zh_tw.toml"
+          }
+        },
+        {
+          "id": "de_de.toml",
+          "name": "de_de.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2175,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/de_de.toml",
+            "MD5": "93a9d14a724a6502ac6e7fdca8d7b121",
+            "path": "config/plasmovoice/server/languages/de_de.toml"
+          }
+        },
+        {
+          "id": "en_us.toml",
+          "name": "en_us.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1892,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/en_us.toml",
+            "MD5": "49ebe9ff33a62a4f28ec5b8b965ba2c9",
+            "path": "config/plasmovoice/server/languages/en_us.toml"
+          }
+        },
+        {
+          "id": "es_es.toml",
+          "name": "es_es.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2111,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/es_es.toml",
+            "MD5": "285832ac1b88e96ce360eddf2b5fe8b3",
+            "path": "config/plasmovoice/server/languages/es_es.toml"
+          }
+        },
+        {
+          "id": "fr_fr.toml",
+          "name": "fr_fr.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2087,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/fr_fr.toml",
+            "MD5": "ac96d5a885a08166603b8c4a872b8cfa",
+            "path": "config/plasmovoice/server/languages/fr_fr.toml"
+          }
+        },
+        {
+          "id": "he_il.toml",
+          "name": "he_il.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2216,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/he_il.toml",
+            "MD5": "e0dd440bbd2b90aa0218ce09316ba0fa",
+            "path": "config/plasmovoice/server/languages/he_il.toml"
+          }
+        },
+        {
+          "id": "ko_kr.toml",
+          "name": "ko_kr.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2344,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/ko_kr.toml",
+            "MD5": "22ca682e2bacbdd62a664d52977218e6",
+            "path": "config/plasmovoice/server/languages/ko_kr.toml"
+          }
+        },
+        {
+          "id": "pl_pl.toml",
+          "name": "pl_pl.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2028,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/pl_pl.toml",
+            "MD5": "65591e68a7501980c5c4270c096203ea",
+            "path": "config/plasmovoice/server/languages/pl_pl.toml"
+          }
+        },
+        {
+          "id": "pt_br.toml",
+          "name": "pt_br.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2023,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/pt_br.toml",
+            "MD5": "f0f8d12c31b72c36c2b806fd47786f80",
+            "path": "config/plasmovoice/server/languages/pt_br.toml"
+          }
+        },
+        {
+          "id": "ru_ru.toml",
+          "name": "ru_ru.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2519,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/ru_ru.toml",
+            "MD5": "1b3d72cf2e187d8bcd62fb8d49bd03a7",
+            "path": "config/plasmovoice/server/languages/ru_ru.toml"
+          }
+        },
+        {
+          "id": "tr_tr.toml",
+          "name": "tr_tr.toml",
+          "type": "File",
+          "artifact": {
+            "size": 820,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/tr_tr.toml",
+            "MD5": "a8fc4a714b0ed6278edcf749df422636",
+            "path": "config/plasmovoice/server/languages/tr_tr.toml"
+          }
+        },
+        {
+          "id": "tt_ru.toml",
+          "name": "tt_ru.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2901,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/tt_ru.toml",
+            "MD5": "0b9b86cc64bb0b57427f61dfe53d436f",
+            "path": "config/plasmovoice/server/languages/tt_ru.toml"
+          }
+        },
+        {
+          "id": "uk_ua.toml",
+          "name": "uk_ua.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2718,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/uk_ua.toml",
+            "MD5": "3460a9c5c46205ee2892e18b2f62a2bd",
+            "path": "config/plasmovoice/server/languages/uk_ua.toml"
+          }
+        },
+        {
+          "id": "zh_cn.toml",
+          "name": "zh_cn.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1870,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/zh_cn.toml",
+            "MD5": "3fdc475103740fa0974b9c006a78bd5d",
+            "path": "config/plasmovoice/server/languages/zh_cn.toml"
+          }
+        },
+        {
+          "id": "zh_tw.toml",
+          "name": "zh_tw.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1867,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/languages/zh_tw.toml",
+            "MD5": "d5f312dfe6d8ef936b807e736807d2f4",
+            "path": "config/plasmovoice/server/languages/zh_tw.toml"
+          }
+        },
+        {
+          "id": "voice_mutes.json",
+          "name": "voice_mutes.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/config/plasmovoice/server/voice_mutes.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/plasmovoice/server/voice_mutes.json"
           }
         },
         {
@@ -258,36 +970,47 @@
           }
         },
         {
-          "id": "유리합치기 리팩.zip",
-          "name": "유리합치기 리팩.zip",
+          "id": "ComplementaryUnbound_r5.4.zip",
+          "name": "ComplementaryUnbound_r5.4.zip",
           "type": "File",
           "artifact": {
-            "size": 271822,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/resourcepacks/%EC%9C%A0%EB%A6%AC%ED%95%A9%EC%B9%98%EA%B8%B0%20%EB%A6%AC%ED%8C%A9.zip",
-            "MD5": "b2a5547771bfc7caf1a40abebea69a24",
-            "path": "resourcepacks/유리합치기 리팩.zip"
+            "size": 452408,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/shaderpacks/ComplementaryUnbound_r5.4.zip",
+            "MD5": "94f56d5c5c343b9a0f4ad7eb135f9afa",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip"
           }
         },
         {
-          "id": "servers.dat",
-          "name": "servers.dat",
+          "id": "ComplementaryUnbound_r5.4.zip.txt",
+          "name": "ComplementaryUnbound_r5.4.zip.txt",
           "type": "File",
           "artifact": {
-            "size": 90,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/servers.dat",
-            "MD5": "3dea582e92381ed8ac32d85158a9d22b",
-            "path": "servers.dat"
+            "size": 1648,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/shaderpacks/ComplementaryUnbound_r5.4.zip.txt",
+            "MD5": "ad49a4de44ed8528afbc3cb28db56383",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip.txt"
           }
         },
         {
-          "id": "ComplementaryUnbound_r5.5.1.zip",
-          "name": "ComplementaryUnbound_r5.5.1.zip",
+          "id": "photon_v1.1.zip",
+          "name": "photon_v1.1.zip",
           "type": "File",
           "artifact": {
-            "size": 456332,
-            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip",
-            "MD5": "576ef06da170458879f3a03e685d487a",
-            "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip"
+            "size": 3563885,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/shaderpacks/photon_v1.1.zip",
+            "MD5": "e4f15b886ee2ed7349ca264bcfcc1147",
+            "path": "shaderpacks/photon_v1.1.zip"
+          }
+        },
+        {
+          "id": "photon_v1.1.zip.txt",
+          "name": "photon_v1.1.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/launcher/servers/RgLand-1.20.4/files/shaderpacks/photon_v1.1.zip.txt",
+            "MD5": "ff08f63463a5f4c6ddf4bd7f7c3de4e1",
+            "path": "shaderpacks/photon_v1.1.zip.txt"
           }
         }
       ]

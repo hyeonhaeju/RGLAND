@@ -1,5 +1,5 @@
 {
-  "$schema": "file:///C:/Workspace/schemas/DistroMetaSchema.schema.json",
+  "$schema": "file:///C:/RG-setup/Nebula-master/workspace/schemas/DistroMetaSchema.schema.json",
   "meta": {
     "rss": "<LINK TO RSS FEED>",
     "discord": {
