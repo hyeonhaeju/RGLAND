@@ -1,7 +1,7 @@
 {
   "$schema": "file:///C:/RG-setup/Nebula-master/workspace/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "name": "Rg랜드 (스트리머 서버)",
     "description": "스트리머와 함께하는 모험!",
     "icon": "https://raw.githubusercontent.com/hyeonhaeju/RGLAND/main/RG_land_logo.png",
